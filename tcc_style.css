@@ -125,7 +125,12 @@ article {
 	font-style: italic;
 }
 
+.art_content b {
+	font-weight: 500;
+}
+
 .art_content a {
+	font-weight: 300;
 	color: rgb(0, 125, 255);
 	text-decoration: none;
 }
