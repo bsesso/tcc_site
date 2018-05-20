@@ -186,6 +186,10 @@ article {
 		margin-bottom: 40px;
 	}
 
+	#landing_titles {
+	margin-top: 25vh;
+}
+
 	article {
 		padding: 15px;
 	}
