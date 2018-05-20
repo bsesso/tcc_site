@@ -27,9 +27,10 @@ body {
 	color: white;
 	font-family: Source Sans Pro;
 	font-weight: 300;
-	font-size: 400%;
+	font-size: 350%;
 	margin: 0px 10px;
 	text-align: center;
+	padding: 0 20px;
 }
 
 #landing p {
@@ -88,7 +89,7 @@ body {
 }
 
 #landing_titles {
-	margin-top: 40vh;
+	margin-top: 35vh;
 }
 
 /****************************/
@@ -150,6 +151,21 @@ article {
 	min-width: 400px;
 }
 
+#img_box {
+	display: table;
+	clear: both;
+}
+
+#img_box .drone_mouse {
+	float: left;
+	width: 50%;
+	padding: 5px;
+}
+
+#img_box img {
+	width: 100%;
+}
+
 @media(max-width: 768px) {
 	#landing h1 {
 		font-size: 30px;
@@ -170,6 +186,10 @@ article {
 		margin-bottom: 40px;
 	}
 
+	#landing_titles {
+	margin-top: 25vh;
+}
+
 	article {
 		padding: 15px;
 	}
@@ -184,5 +204,9 @@ article {
 
 	#chart_div {
 		min-width: 300px;
+	}
+
+	#img_box .drone_mouse {
+		width: 100%;
 	}
 }
