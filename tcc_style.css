@@ -150,6 +150,21 @@ article {
 	min-width: 400px;
 }
 
+#img_box {
+	display: table;
+	clear: both;
+}
+
+#img_box .drone_mouse {
+	float: left;
+	width: 50%;
+	padding: 5px;
+}
+
+#img_box img {
+	width: 100%;
+}
+
 @media(max-width: 768px) {
 	#landing h1 {
 		font-size: 30px;
@@ -184,5 +199,9 @@ article {
 
 	#chart_div {
 		min-width: 300px;
+	}
+
+	#img_box .drone_mouse {
+		width: 100%;
 	}
 }
